@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="Web sajt za nove automobile u Srbiji. Kupite auto putem besplatnih oglasa.">
+    <meta name="keywords" content="Kola, Prodaja automobila, Automobili, auto oglasi, prodaja vozila">
+    <meta name="author" content="Milos Drinjakovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="http://carrentals.epizy.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="http://carrentals.epizy.com">
+    <meta property="og:title" content="Car Sales - auto oglasi, prodaja vozila">
+    <meta property="og:description" content="Web sajt za nove automobile u Srbiji. Kupite auto putem besplatnih oglasa.">
+    <title>Car Sales</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+    CSS
+    ============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header id="header" id="home">
+    <div class="container">
+        <div class="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="" title=""/></a>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="cars.html">Kola</a></li>
+                    <li><a href="vesti.html">Vesti</a></li>
+                    <li class="menu-item-active"><a href="register.html">Registracija</a></li>
+                    <li><a href="logovanje.html">Logovanje</a></li>
+                    <li><a href="author.html">Autor</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </div>
+</header><!-- #header -->
+
+
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-center">
+            <div class=" col-md-6 header-right">
+                <h4 class="text-white pb-30">Registracija</h4>
+                <div class="input-group mb-2">
+                    <input
+                            id="imePrezime"
+                            class="form-control input-lg"
+                            placeholder="Full Name"
+                            maxlength="100"
+                            type="text"
+                            name="name">
+                </div>
+                <label id="imePrezime-error" class="text-danger" style="display: none">Neispravno ime i prezime</label>
+                <div class="input-group mb-2">
+                    <input
+                            id="name"
+                            class="form-control input-lg"
+                            placeholder="Username"
+                            maxlength="100"
+                            type="text"
+                           name="handle">
+                </div>
+                <label id="username-error" class="text-danger" style="display: none">Username mora imati izmedju 3 i 20 karaktera.</label>
+                <div class="input-group mb-2">
+                    <input id="email" class="form-control input-lg" placeholder="Email" maxlength="100" type="email"
+                           name="email" validate>
+                </div>
+                <label id="email-error" class="text-danger" style="display: none">Email nije u ispravnom formatu.</label>
+                <label id="email-exists-error" class="text-danger" style="display: none">Korisnik sa ovim emailom je vec registrovan.</label>
+                <div class="input-group mb-2">
+                    <input id="password" class="form-control input-lg" placeholder="Password" maxlength="60"
+                           type="password" name="password">
+                </div>
+                <label id="password-error" class="text-danger" style="display: none">Lozinka nije u ispravnom formatu.</label>
+                <label id="password-error2" class="text-danger" style="display: none">Lozinka mora imati izmedju 6 i 15 karaktera.</label>
+                <div class="input-group mb-2">
+                    <input id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password"
+                           maxlength="60" type="password" name="password_confirmation">
+                </div>
+                <label id="password_confirmation-error" class="text-danger" style="display: none">Lozinke se ne podudaraju.</label>
+                <div class="form-group">
+                    <button onclick="registracija()" type="submit" id="btn-signup"
+                            class="btn btn-block btn-primary btn-lg">Registruj se
+                    </button>
+
+                    <label id="register-success" class="text-success" style="display: none">Uspesno ste se registrovali.</label>
+                </div>
+                <!-- /.col-xs-12 -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+
+<!-- start footer Area -->
+<footer class="footer-area section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>Brzi linkovi</h6>
+                    <ul>
+                        <li><a href="#">Poslovi</a></li>
+                        <li><a href="#">Brendovi</a></li>
+                        <li><a href="#">Investitori</a></li>
+                        <li><a href="#">Uslovi koriscenja sajta</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+                <div class="single-footer-widget">
+                    <h6>Zapratite nas</h6>
+                    <p>Pronadjite nas na drustvenim mrezama</p>
+                    <div class="footer-social d-flex align-items-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>Vesti</h6>
+                    <p>Ostanite u toku</p>
+                    <div class="" id="mc_embed_signup">
+                        <form target="_blank" novalidate="true"
+                              action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                              method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Enter Email"
+                                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+                                   required="" type="email">
+                            <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                            </div>
+
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-50 mx-auto footer-text col-lg-12">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                Sva prava zadrzana | Milos Drinjakovic
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- End footer Area -->
+
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/easing.min.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/main.js"></script>
+<script src="assets/js/registracija.js"></script>
+<script src="assets/js/user.js"></script>
+</body>
+</html>
+
+
+

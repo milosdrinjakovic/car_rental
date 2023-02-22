@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "naziv": "Mito",
+    "brand": {
+      "id": 1,
+      "naziv": "Alfa Romeo"
+    }
+  },
+  {
+    "id": 2,
+    "naziv": "A3",
+    "brand": {
+      "id": 2,
+      "naziv": "Audi"
+    }
+  },
+  {
+    "id": 3,
+    "naziv": "A4",
+    "brand": {
+      "id": 2,
+      "naziv": "Audi"
+    }
+  },
+  {
+    "id": 4,
+    "naziv": "M3",
+    "brand": {
+      "id": 4,
+      "naziv": "BMW"
+    }
+  },
+  {
+    "id": 5,
+    "naziv": "M5",
+    "brand": {
+      "id": 4,
+      "naziv": "BMW"
+    }
+  },
+  {
+    "id": 6,
+    "naziv": "55",
+    "brand": {
+      "id": 12,
+      "naziv": "Yugo"
+    }
+  },
+  {
+    "id": 7,
+    "naziv": "45",
+    "brand": {
+      "id": 12,
+      "naziv": "Yugo"
+    }
+  },
+  {
+    "id": 8,
+    "naziv": "GT V8",
+    "brand": {
+      "id": 3,
+      "naziv": "Bentley"
+    }
+  },
+  {
+    "id": 9,
+    "naziv": "GT Cabrio",
+    "brand": {
+      "id": 3,
+      "naziv": "Bentley"
+    }
+  }
+
+
+]

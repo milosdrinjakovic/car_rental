@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/elements/fav.png">
+    <!-- Author Meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Web sajt za nove automobile u Srbiji. Kupite auto putem besplatnih oglasa.">
+    <meta name="keywords" content="Kola, Prodaja automobila, Automobili, auto oglasi, prodaja vozila">
+    <meta name="author" content="Milos Drinjakovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="http://carrentals.epizy.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="http://carrentals.epizy.com">
+    <meta property="og:title" content="Car Sales - auto oglasi, prodaja vozila">
+    <meta property="og:description"
+          content="Web sajt za nove automobile u Srbiji. Kupite auto putem besplatnih oglasa.">
+    <title>Car Sales</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+    CSS
+    ============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header id="header" id="home">
+    <div class="container">
+        <div class="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="" title=""/></a>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li class="menu-active"><a href="#">Kola</a></li>
+                    <li><a href="vesti.html">Vesti</a></li>
+                    <li id="register"><a href="register.html">Registracija</a></li>
+                    <li id="login"><a href="logovanje.html">Logovanje</a></li>
+                    <li><a href="author.html">Autor</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </div>
+</header><!-- #header -->
+
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+                <h1 class="text-white">
+                    Cars
+                </h1>
+                <p class="text-white link-nav"><a href="index.html">Pocetna </a> <span
+                        class="lnr lnr-arrow-right"></span>
+                    <a href="cars.html"> Kola</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+
+<!-- Start model Area -->
+<section class="model-area section-gap" id="cars">
+    <div class="container">
+        <div class="row d-flex justify-content-center pb-40">
+            <div class="col-md-8 pb-40 header-text">
+                <h1 class="text-center pb-10">Izaberite zeljeni model automobila</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class=" col-md-3">
+                    <div class="input-group mb-2">
+                        <input
+                                value="0"
+                                id="cena-od"
+                                class="form-control input-lg"
+                                placeholder="Cena od"
+                                name="cena">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-2">
+                        <input
+                                value="100000"
+                                id="cena-do"
+                                class="form-control input-lg"
+                                placeholder="Cena do"
+                                name="cena">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-2">
+                        <select id="dropdown-brendovi" class="custom-select">
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-2">
+                        <select id="dropdown-modeli" class="custom-select">
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-2">
+                    <div class="row d-flex align-content-end justify-content-between" style="margin: 0">
+                        <div>
+                            <div class="row d-flex align-items-center" style="margin: 0">
+                                <div class="row d-flex align-items-center" style="margin: 0">
+                                    <label>Sortiraj po:</label>
+                                    <div class="input-group mb-2">
+                                        <select id="dropdown-sort" class="custom-select" onchange="sort = this.value">
+                                            <option value="naziv" selected>Naziv</option>
+                                            <option value="cena">Cena</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row d-flex align-items-center mx-3">
+                                    <label>Redosled:</label>
+                                    <div class="input-group mb-2">
+                                        <select class="custom-select" onchange="order = this.value">
+                                            <option value="+" selected>Rastuci</option>
+                                            <option value="-">Opadajuci</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row d-flex align-content-end pb-2 mx-0" style="height: 100%">
+                                <div class="input-group">
+                                    <button
+                                            onclick="filtriraj()"
+                                            id="btn-pretrazi"
+                                            style="height: 40px;line-height: 32px;"
+                                            class="btn btn-default btn-sm primary-btn btn-block text-center text-uppercase">
+                                        Pretrazi
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress mb-4" id="vesti-loading">
+                <div class="progress-bar progress-bar-striped
+                    progress-bar-animated" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                </div>
+            </div>
+            <div id="kola-ispis" class="active-model-carusel" style="padding: 0 16px">
+
+            </div>
+            <button
+                    id="ucitajVise"
+                    onclick="ucitajVise()"
+                    style="height: 40px;line-height: 32px;"
+                    class="btn btn-default btn-sm primary-btn btn-block text-center text-uppercase">
+                Ucitaj jos
+            </button>
+        </div>
+    </div>
+</section>
+<!-- End model Area -->
+
+
+<!-- Start callaction Area -->
+<section class="callaction-area relative section-gap">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h1 class="text-white">Osetite pravu podrsku</h1>
+                <p>
+                    Pruzamo veliku podrsku nasim kupcima. Za kratak vremenski period stekli smo dosta zadovoljnih
+                    klijenata. Budite i vi jedni od njih.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End callaction Area -->
+
+
+<!-- Start feature Area -->
+<section class="feature-area section-gap" id="service">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 pb-40 header-text">
+                <h1>Kakve usluge pruzamo</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-feature">
+                    <h4><span class="lnr lnr-user"></span>Experte u svim sferama bitnim za vas auto</h4>
+                    <p>
+                        Nasi mehanicari su jedni od najboljih u evropi.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-feature">
+                    <h4><span class="lnr lnr-license"></span>Profesionalnu uslugu</h4>
+                    <p>
+                        Poverenje gradimo svojim odnosom prema klijentima, profesionalizam nam je na prvom mestu.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-feature">
+                    <h4><span class="lnr lnr-phone"></span>Podrska klijentima</h4>
+                    <p>
+                        Mozete nam se obratiti 24/7.Dostupni smo za svaku vrstu razgovora o vasim "ljubimcima".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End feature Area -->
+
+<!-- start footer Area -->
+<footer class="footer-area section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>Brzi linkovi</h6>
+                    <ul>
+                        <li><a href="#">Poslovi</a></li>
+                        <li><a href="#">Brendovi</a></li>
+                        <li><a href="#">Investitori</a></li>
+                        <li><a href="#">Uslovi koriscenja sajta</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+                <div class="single-footer-widget">
+                    <h6>Zapratite nas</h6>
+                    <p>Pronadjite nas na drustvenim mrezama</p>
+                    <div class="footer-social d-flex align-items-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h6>Vesti</h6>
+                    <p>Ostanite u toku</p>
+                    <div class="" id="mc_embed_signup">
+                        <form target="_blank" novalidate="true"
+                              action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                              method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Enter Email"
+                                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+                                   required="" type="email">
+                            <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                            </div>
+
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-50 mx-auto footer-text col-lg-12">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                Sva prava zadrzana | Milos Drinjakovic
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- End footer Area -->
+
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/easing.min.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/main.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cars.js"></script>
+<script src="assets/js/user.js"></script>
+</body>
+</html>

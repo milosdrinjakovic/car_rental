@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "naziv": "Alfa Romeo"
+  },
+  {
+    "id": 2,
+    "naziv": "Audi"
+  },
+  {
+    "id": 3,
+    "naziv": "Bentley"
+  },
+  {
+    "id": 4,
+    "naziv": "BMW"
+  },
+  {
+    "id": 12,
+    "naziv": "Yugo"
+  }
+
+]

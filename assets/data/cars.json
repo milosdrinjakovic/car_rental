@@ -1,0 +1,695 @@
+[
+  {
+    "id": 1,
+    "cena": 20000,
+    "slike": [
+      {
+        "large": "img/mitoRacer.jpg",
+        "thumb": "img/mitoRacer-thumb.jpg",
+        "title": "Alfa Romeo Mito Race 125KS"
+      },
+      {
+        "large": "img/mito1.jpg",
+        "thumb": "img/mito1-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      },
+      {
+        "large": "img/mito2.jpg",
+        "thumb": "img/mito2-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      },
+      {
+        "large": "img/mito3.jpg",
+        "thumb": "img/mito3-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      }
+    ],
+    "opis": "Svojim sportskim stilom i tehničkom ispravnošću, koji su ga učinili priznatom referentnom tačkom u svojoj kategoriji, nova verzija modela MiTo Racer debituje u Ženevi 2015 godine, ciljajući iskusnije klijente zainteresovane za nove tendencije, što se vidi po brojnim hromiranim detaljima i smeđem tapacirungu od eko-kože, koji mu daju klasični izgled koji nagoveštava sofisticirani i savremeni stil.",
+    "model": {
+      "id": 1,
+      "naziv": "MiTo Racer"
+    },
+    "brand": {
+      "id": 1,
+      "naziv": "Alfa Romeo"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Perica Puric",
+        "text": "Odlican auto",
+        "datum": "18 Mart 2020"
+      },
+      {
+        "autor": "Marko Markovic",
+        "text": "Ja ga imam super je",
+        "datum": "2 Mart 2020"
+      },
+      {
+        "autor": "Mirko Markovic",
+        "text": "Nije los",
+        "datum": "17 Mart 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Alfa Romeo MiTo Racer"
+  },
+  {
+    "id": 2,
+    "cena": 15000,
+    "slike": [
+      {
+        "large": "img/mitoo.jpg",
+        "thumb": "img/mitoo-thumb.jpg",
+        "title": "Alfa Romeo Mito Race 125KS"
+      },
+      {
+        "large": "img/alfaJDTM1.jpg",
+        "thumb": "img/alfaJDTM1-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      },
+      {
+        "large": "img/alfaJDTM2.jpg",
+        "thumb": "img/alfaJDTM2-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      },
+      {
+        "large": "img/alfaJDTM3.jpg",
+        "thumb": "img/alfaJDTM3-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      }
+    ],
+    "opis": "Italijanski automobil iz 2008. godine koji pokreće 4 - cilindrični turbo dizel agregat, proizvod fabrike FIAT. Radi se o motoru zapremine 1.6 litra uz prednji pogon i ručni menjač sa 6 brzina. U pitanju je gradski automobil sa maksimalnom brzinom od 198km/h, ubrzanjem od 0-100 za 9.9s i prosečnom potrošnjom od oko 4.8 litara na 100 pređenih kilometara.",
+    "model": {
+      "id": 1,
+      "naziv": "Mito 1.6 JDTm"
+    },
+    "brand": {
+      "id": 1,
+      "naziv": "Alfa Romeo"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Milan Miljanic",
+        "text": "Odlican je zaista",
+        "datum": "18 Mart 2020"
+      },
+      {
+        "autor": "Marko Markovic",
+        "text": "Ne svidja mi se",
+        "datum": "2 Mart 2020"
+      },
+      {
+        "autor": "Stefan Stajic",
+        "text": "Nije los",
+        "datum": "17 Mart 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Alfa Romeo Mito 1.6 JDTm"
+  },
+  {
+    "id": 3,
+    "cena": 40000,
+    "slike": [
+      {
+        "large": "img/audi1.jpg",
+        "thumb": "img/audi1-thumb.jpg",
+        "title": "Audi A3 Limousine"
+      },
+      {
+        "large": "img/audilimo1.jpg",
+        "thumb": "img/audilimo1-thumb.jpg",
+        "title": "Audi A3 Limousine"
+      },
+      {
+        "large": "img/audilimo2.jpg",
+        "thumb": "img/audilimo2-thumb.jpg",
+        "title": "Audi A3 Limousine"
+      },
+      {
+        "large": "img/audilimo3.jpg",
+        "thumb": "img/audilimo3-thumb.jpg",
+        "title": "Audi A3 Limousine"
+      }
+    ],
+    "opis": "Dinamične konture. Mišićavo napete površine. Audi A3 Limuzina na pojam \"Limuzine\" baca potpuno novo svetlo. Dosledno sportski. Elegantna i samopouzdana. Audi A3 Limuzna otvara neslućene perspektive.",
+    "model": {
+      "id": 2,
+      "naziv": "A3 Limuzina"
+    },
+    "brand": {
+      "id": 2,
+      "naziv": "Audi"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 5,
+      "menjac": "automatic"
+    },
+    "komentari": [
+      {
+        "autor": "Jovan Konatar",
+        "text": "Odlican auto",
+        "datum": "3 Mart 2020"
+      },
+      {
+        "autor": "Marko Markovic",
+        "text": "Ja ga imam super je",
+        "datum": "25 Februar 2020"
+      },
+      {
+        "autor": "Melentije Ivanic",
+        "text": "Zaista dobar jako mi se svidja",
+        "datum": "17 Januar 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Audi A3 Limuzina"
+  },
+  {
+    "id": 4,
+    "cena": 42000,
+    "slike": [
+      {
+        "large": "img/audii.jpg",
+        "thumb": "img/audii-thumb.jpg",
+        "title": "Audi A3 Cabrio"
+      },
+      {
+        "large": "img/A3cabrio1.jpg",
+        "thumb": "img/A3cabrio1-thumb.jpg",
+        "title": "Audi A3 Cabrio"
+      },
+      {
+        "large": "img/A3cabrio2.jpg",
+        "thumb": "img/A3cabrio2-thumb.jpg",
+        "title": "Audi A3 Cabrio"
+      },
+      {
+        "large": "img/A3cabrio3.jpg",
+        "thumb": "img/A3cabrio3-thumb.jpg",
+        "title": "Audi A3 Cabrio"
+      }
+    ],
+    "opis": "Sloboda koja inspiriše. Fascinacija na prvi pogled. Linije koje imaju dubinu. Dinamične proprocije. U kombinaciji sa elegantnom lakoćom. Audi A3 Cabriolet. Sa sportskim duhom i kada miruje. Inspirativan. Otvoren za nove ideje. I neograničenu slobodu. Sa modelom Audi A3 Cabriolet svet je kao na dlanu. Svakoga dana nanovo.",
+    "model": {
+      "id": 2,
+      "naziv": "A3 kabriolet"
+    },
+    "brand": {
+      "id": 2,
+      "naziv": "Audi"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Milan Milenkovic",
+        "text": "Kupio sam zaista je udoban",
+        "datum": "18 Februar 2020"
+      },
+      {
+        "autor": "Marko Markovic",
+        "text": "Udobnost na vrhunskom nivou",
+        "datum": "2 Januar 2020"
+      },
+      {
+        "autor": "Mirko Markovic",
+        "text": "Skup",
+        "datum": "15 Mart 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "22 Februar 2020"
+      }
+    ],
+    "naziv": "Audi A3 kabriolet"
+  },
+  {
+    "id": 5,
+    "cena": 50000,
+    "slike": [
+      {
+        "large": "img/audi3.jpg",
+        "thumb": "img/audi3-thumb.jpg",
+        "title": "Audi A4 Limousine"
+      },
+      {
+        "large": "img/A4limo1.jpg",
+        "thumb": "img/A4limo1-thumb.jpg",
+        "title": "Audi A4 Limousine"
+      },
+      {
+        "large": "img/A4limo2.jpg",
+        "thumb": "img/A4limo2-thumb.jpg",
+        "title": "Audi A4 Limousine"
+      },
+      {
+        "large": "img/A4limo3.jpg",
+        "thumb": "img/A4limo3-thumb.jpg",
+        "title": "Audi A4 Limousine"
+      }
+    ],
+    "opis": "Zahvaljujući novom dizajnerskom izražaju i skoro potpuno novoj karoseriji, sportski karakter modela Audi A4 ostvaruje se više nego ikada ranije: on ima dinamičan, snažan i atraktivan estetski izgled. Visokokvalitetan i funkcionalno dizajniran enterijer, inovativne tehnologije u oblasti digitalizacije, infotainment sistem i sisteme asistencije vozaču, kao i motore visokih performansi koji upotpunjuju kompletan paket.\n\nOčekuje se da će ovaj model biti dostupan od kraja 2019. godine.",
+    "model": {
+      "id": 3,
+      "naziv": "A4 Limuzina"
+    },
+    "brand": {
+      "id": 2,
+      "naziv": "Audi"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 5,
+      "menjac": "automatic"
+    },
+    "komentari": [
+      {
+        "autor": "Mirko Ivanic",
+        "text": "Da, da, bio bi odlican za duga putovanja",
+        "datum": "1 Mart 2020"
+      },
+      {
+        "autor": "Dejan Stankovic",
+        "text": "Savrsen auto za sve prilike",
+        "datum": "4 Mart 2020"
+      },
+      {
+        "autor": "Dragutin Milovanovic",
+        "text": "Savrsen auto za moj ukus",
+        "datum": "17 Mart 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Audi A4 Limuzina"
+  },
+  {
+    "id": 6,
+    "cena": 60000,
+    "slike": [
+      {
+        "large": "img/bmwM3.jpg",
+        "thumb": "img/bmwM3-thumb.jpg",
+        "title": "BMW M3"
+      },
+      {
+        "large": "img/bmwM31.jpg",
+        "thumb": "img/bmwM31-thumb.jpg",
+        "title": "BMW M3"
+      },
+      {
+        "large": "img/bmwM32.jpg",
+        "thumb": "img/bmwM32-thumb.jpg",
+        "title": "BMW M3"
+      },
+      {
+        "large": "img/bmwM33.jpg",
+        "thumb": "img/bmwM33-thumb.jpg",
+        "title": "BMW M3"
+      }
+    ],
+    "opis": "Iako tek što je dospeo na puteve, potupuno nov BMW Serije 3 Sedan već ostavlja sve za sobom, uključujući i konvencije i očekivanja. Još jednom ova ikona pokazuje kako treba sebe iznova transformisati. Najzad, sa pionirskim dizajnerskim jezikom, on predstavlja osvit novog doba. Ultimativni sportski sedan pokreću još moćniji i efikasniji motori. I nova sila – recite samo „Hej, BMW“ i sasvim novi BMW Serije 3 prepoznaje vaš glas i sluša ",
+    "model": {
+      "id": 4,
+      "naziv": "M3"
+    },
+    "brand": {
+      "id": 4,
+      "naziv": "BMW"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 5,
+      "menjac": "automatic"
+    },
+    "komentari": [
+      {
+        "autor": "Milica Todorovic",
+        "text": "Prava masina nema sta",
+        "datum": "18 Mart 2020"
+      },
+      {
+        "autor": "Ivan Ivanovic",
+        "text": "Maksimalne performanse super auto nema sta",
+        "datum": "2 Mart 2020"
+      },
+      {
+        "autor": "Mirko Markovic",
+        "text": "Nije los",
+        "datum": "17 Mart 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "BMW M3"
+  },
+  {
+    "id": 6,
+    "cena": 65000,
+    "slike": [
+      {
+        "large": "img/bmwM5.jpg",
+        "thumb": "img/bmwM5-thumb.jpg",
+        "title": "BMW M5"
+      },
+      {
+        "large": "img/bmwM51.jpg",
+        "thumb": "img/bmwM51-thumb.jpg",
+        "title": "BMW M5"
+      },
+      {
+        "large": "img/bmwM52.jpg",
+        "thumb": "img/bmwM52-thumb.jpg",
+        "title": "BMW M5"
+      },
+      {
+        "large": "img/bmwM53.jpg",
+        "thumb": "img/bmwM53-thumb.jpg",
+        "title": "BMW M5"
+      }
+    ],
+    "opis": "BMW Serije 5 je oličenje moderne poslovne limuzine. Zahvaljujući svojoj dinamičnosti i elegantnom izgledu ispunjava sve što se od njega očekuje: estetski je privlačan i nudi užitak u vožnji uz vrhunsku tehnologiju.",
+    "model": {
+      "id": 5,
+      "naziv": "M5"
+    },
+    "brand": {
+      "id": 4,
+      "naziv": "BMW"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 5,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Matic Aleksandar",
+        "text": "Jedan od mojih omiljenih",
+        "datum": "18 Mart 2020"
+      },
+      {
+        "autor": "Zivorad Milentijevic",
+        "text": "Dobar nema sta!",
+        "datum": "4 Mart 2020"
+      },
+      {
+        "autor": "Andjelka Prpic",
+        "text": "Nije los",
+        "datum": "25 Januar 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "BMW M5"
+  },
+  {
+    "id": 8,
+    "cena": 100,
+    "slike": [
+      {
+        "large": "img/Yugo55.jpg",
+        "thumb": "img/Yugo55-thumb.jpg",
+        "title": "Jugic"
+      },
+      {
+        "large": "img/jugo1.jpg",
+        "thumb": "img/jugo1-thumb.jpg",
+        "title": "Jugic"
+      },
+      {
+        "large": "img/jugo2.jpg",
+        "thumb": "img/jugo2-thumb.jpg",
+        "title": "Jugic"
+      },
+      {
+        "large": "img/jugo3.jpg",
+        "thumb": "img/jugo3-thumb.jpg",
+        "title": "Jugic"
+      }
+    ],
+    "opis": "Najbolja masina na svetu",
+    "model": {
+      "id": 6,
+      "naziv": "55"
+    },
+    "brand": {
+      "id": 12,
+      "naziv": "Yugo"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Aleksandar Vucic",
+        "text": "Pokrenucemo ponovnu proizvodnju ovog automobila, ceo svet ce voziti Juga, mocice i da se transformise u helikopter",
+        "datum": "29 Januar 2020"
+      },
+      {
+        "autor": "Ana Brnabic",
+        "text": "Predsednice ocete i mene da vozite ja cu da vam menjam brzine!",
+        "datum": "14 Mart 2020"
+      },
+      {
+        "autor": "Ivica Dacic",
+        "text": "Ne znam da ko ce da vozi, ali ja cu sigurno biti u kolima",
+        "datum": "22 Januar 2020"
+      },
+      {
+        "autor": "Toma Nikolic",
+        "text": "Mene su izbacili iz kola. Porasla deca osamostalila se :( ",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Yugo 55"
+  },
+  {
+    "id": 9,
+    "cena": 80000,
+    "slike": [
+      {
+        "large": "img/bentleyGTV8.jpg",
+        "thumb": "img/bentleyGTV8-thumb.jpg",
+        "title": "Bentley GTV8"
+      },
+      {
+        "large": "img/GTV81.jpg",
+        "thumb": "img/GTV81-thumb.jpg",
+        "title": "Bentley GTV8"
+      },
+      {
+        "large": "img/GTV82.jpg",
+        "thumb": "img/GTV82-thumb.jpg",
+        "title": "Bentley GTV8"
+      },
+      {
+        "large": "img/GTV83.jpg",
+        "thumb": "img/GTV83-thumb.jpg",
+        "title": "Bentley GTV8"
+      }
+    ],
+    "opis": "Radi se o 4,0 litarskom V8 twin turbo motoru koji razvija 507ks pri 6000 o/min u paru sa osmostepenim automatskim menjačem. Ubrzanje od 0 do 60 milja na sat (96 km/h) traje manje od 5 sekundi, najveća brzina iznosi više od 290 km/h, a u fabričkom press saopštenju se navodi i podatak da autonomija sa jednim rezervoarom goriva iznosi oko 800 km.",
+    "model": {
+      "id": 8,
+      "naziv": "GT V8"
+    },
+    "brand": {
+      "id": 3,
+      "naziv": "Bentley"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Milos Degenek",
+        "text": "Skupa ali najbolja limuzina na trzistu",
+        "datum": "29 Januar 2020"
+      },
+      {
+        "autor": "Jovan Matijevic",
+        "text": "Dobar nema sta!",
+        "datum": "14 Mart 2020"
+      },
+      {
+        "autor": "Milica Mandic",
+        "text": "Mislim da lepsi ne postoji",
+        "datum": "22 Januar 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Bentley GT V8"
+  },
+  {
+    "id": 10,
+    "cena": 80000,
+    "slike": [
+      {
+        "large": "img/bentleyCabrio.jpg",
+        "thumb": "img/bentleyCabrio-thumb.jpg",
+        "title": "Bentley Cabrio"
+      },
+      {
+        "large": "img/bentleyCabrio1.jpg",
+        "thumb": "img/bentleyCabrio1-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      },
+      {
+        "large": "img/bentleyCabrio2.jpg",
+        "thumb": "img/bentleyCabrio2-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      },
+      {
+        "large": "img/bentleyCabrio3.jpg",
+        "thumb": "img/bentleyCabrio3-thumb.jpg",
+        "title": "Alfa Romeo Mito Race Black"
+      }
+    ],
+    "opis": "Treća generacija modela Continental GT, jednog od najprestižnijih kupea današnjice donosi radikalne dizajnerske promene, i najsvremenija tehnička rešenja,Dugo se čekalo na naslednika, po ocenama mnogih, najboljeg automobila na svetu. Novi Bentley Continental GT opravdava sva očekivanja i verovatno će dovesti do očaja sve one koji su aktuelni model kupili ove ili prošle godine. Jednostavno, novitet pravi veliki otklon i prethodnika prevazilazi u svakom pogledu. Bentley ne praktikuje radikalne dizajnerske zaokrete. Čini se kao da je i sada isti slučaj, izuzev zadnjeg dela karoserije koji je neuporedivo maštovitiji i atraktivniji nego kod prethodne verzije.",
+    "model": {
+      "id": 9,
+      "naziv": "GT Cabrio"
+    },
+    "brand": {
+      "id": 3,
+      "naziv": "Bentley"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Milos Degenek",
+        "text": "Skupa ali najbolja limuzina na trzistu",
+        "datum": "29 Januar 2020"
+      },
+      {
+        "autor": "Jovan Matijevic",
+        "text": "Dobar nema sta!",
+        "datum": "14 Mart 2020"
+      },
+      {
+        "autor": "Milica Mandic",
+        "text": "Mislim da lepsi ne postoji",
+        "datum": "22 Januar 2020"
+      },
+      {
+        "autor": "Djonovic Aleksandar",
+        "text": "Ja u ovome gajim kokoske",
+        "datum": "17 Februar 2020"
+      }
+    ],
+    "naziv": "Bentley GT Cabrio"
+  },
+  {
+    "id": 11,
+    "cena": 100,
+    "slike": [
+      {
+        "large": "img/yugo451.jpg",
+        "thumb": "img/yugo451-thumb.jpg",
+        "title": "Yugo 45"
+      },
+      {
+        "large": "img/yugo45.jpg",
+        "thumb": "img/yugo45-thumb.jpg",
+        "title": "Yugo 45"
+      },
+      {
+        "large": "img/yugo452.jpg",
+        "thumb": "img/yugo452-thumb.jpg",
+        "title": "Yugo 45"
+      },
+      {
+        "large": "img/yugo453.jpg",
+        "thumb": "img/yugo453-thumb.jpg",
+        "title": "Yugo 45"
+      }
+    ],
+    "opis": "Masina",
+    "model": {
+      "id": 7,
+      "naziv": "45"
+    },
+    "brand": {
+      "id": 12,
+      "naziv": "Yugo"
+    },
+    "specifikacije": {
+      "kapacitet": "5 osoba",
+      "vrata": 3,
+      "menjac": "manual"
+    },
+    "komentari": [
+      {
+        "autor": "Milan Milenkovic",
+        "text": "Nas Yugo je najbolji",
+        "datum": "6 Februar 2020"
+      },
+      {
+        "autor": "Marko Markovic",
+        "text": "Sta je sve preziveo ovaj auto",
+        "datum": "4 Januar 2020"
+      },
+      {
+        "autor": "Vatra",
+        "text": "Ovaj je stariji tri dana od mene",
+        "datum": "1 Januar 0000"
+      },
+      {
+        "autor": "Rajko Rajkovic",
+        "text": "Fali mu sesta brzina mnogo je jak",
+        "datum": "22 Februar 2020"
+      }
+    ],
+    "naziv": "Yugo 45"
+  }
+]
